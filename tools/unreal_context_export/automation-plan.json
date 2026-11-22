@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "dp.unreal.automation-plan/v1",
+  "discoveryStatus": "ready",
+  "executionStatus": "passed",
+  "executionEvidence": "context/unreal/validation/automation-toolset.json",
+  "executionSummary": {"total": 12, "passed": 12, "failed": 0, "skipped": 0},
+  "readPathContractTests": [
+    "AI.Toolsets.PCGToolset.Graph.GetGraphStructure.reflects nodes and edges added through the PCG graph API",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_blueprint.BlueprintToolsTestCase.test_read_graph_dsl_returns_code",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_blueprint.BlueprintToolsTestCase.test_read_graph_dsl_round_trips_regular_event",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialFunctionTestCase.test_get_expression_inputs_inside_function_graph",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialToolsTestCase.test_get_expression_inputs_reports_named_output",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialToolsTestCase.test_get_expression_inputs_reports_unwired_as_none",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialToolsTestCase.test_get_expression_inputs_reports_wired_source"
+  ],
+  "compileContractTests": [
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_blueprint.BlueprintToolsTestCase.test_compile_blueprint",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_blueprint.BlueprintToolsTestCase.test_fail_compile_blueprint",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialFunctionTestCase.test_recompile",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialToolsTestCase.test_recompile",
+    "AI.Toolsets.EditorToolset.editor_toolset.tests.test_material.MaterialToolsTestCase.test_recompile_compile_error"
+  ],
+  "productionAssetPolicy": {
+    "compileOnlyAfterChange": true,
+    "requireAssetLease": true,
+    "requireGlobalLeaseForAutomation": true,
+    "snapshotDirtyStateBeforeAndAfter": true,
+    "neverSaveAll": true
+  }
+}

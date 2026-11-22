@@ -1,0 +1,33 @@
+# Unreal generated data and binary assets
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.uasset
+*.umap
+
+# Local evidence, caches and credentials
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.before.*
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+context/unreal/
+work/
+backups/
+
+# IDE and OS state
+.idea/
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db

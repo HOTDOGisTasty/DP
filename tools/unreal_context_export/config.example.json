@@ -1,0 +1,7 @@
+{
+  "outputRoot": "context/unreal",
+  "assets": [
+    "/Game/DP/Landscape/Materials/M_Automaterial",
+    "/Game/DP/Landscape/Materials/MaterialFunctions/MF_CreateLayer"
+  ]
+}

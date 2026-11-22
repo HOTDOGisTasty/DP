@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 100,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Actor Palette Synty Repair",
+	"Description": "One-time editor-only repair for the moved PolygonWar Actor Palette overview path.",
+	"Category": "Editor",
+	"CreatedBy": "DeltaPoly",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ActorPaletteSyntyRepairEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}

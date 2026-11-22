@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 160,
+	"VersionName": "1.6.0",
+	"FriendlyName": "Landscape Spline Outliner",
+	"Description": "Editor-only X-Ray visibility and automatic selection list for native Landscape Spline networks.",
+	"Category": "Editor",
+	"CreatedBy": "DeltaPoly",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LandscapeSplineHierarchyEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}

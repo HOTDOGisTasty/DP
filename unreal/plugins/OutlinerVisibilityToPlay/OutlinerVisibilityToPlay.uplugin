@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 100,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Outliner Visibility To Play",
+	"Description": "Mirrors actors hidden with the World Outliner eye into Play In Editor visibility.",
+	"Category": "Editor",
+	"CreatedBy": "DeltaPoly",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "OutlinerVisibilityToPlayEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
